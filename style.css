@@ -708,7 +708,7 @@ input:required {
       text-transform: uppercase;
       color: #ffffff;
       font-weight: 500;
-      padding: 0 20px; }
+      padding: 0 10px; }
       .classy-nav-container .classy-navbar .classynav ul li a:hover, .classy-nav-container .classy-navbar .classynav ul li a:focus {
         color: #06b7cf; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -765,7 +765,7 @@ input:required {
   transition-duration: 500ms;
   background-color: rgba(0, 0, 0, 0.8); }
   .header-area.sticky {
-    background-color: #015361;
+    background-color: #5d4fc9;
     -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
     box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15); }
     .header-area.sticky .classy-navbar {
