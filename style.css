@@ -32,6 +32,7 @@ Last Update: March 14, 2019
     19.0 Sponsor Area CSS
     20.0 Contact Area CSS
     21.0 CTA Area CSS
+    22.0 Collaborator Area CSS
 --------------------------------------------- */
 /* Import Fonts & All CSS */
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700");
@@ -2748,5 +2749,62 @@ input:required {
         margin-bottom: 0; }
       .call-to-action-content .event-time p i {
         margin-right: 3px; }
+
+/* :: 22.0 Collaborator Area CSS */
+.our-collaborator-client-area {
+  position: relative;
+  z-index: 1;
+  background-color: #151853; }
+
+.our-collaborator-area {
+  position: relative;
+  z-index: 1;
+  width: 100%; }
+  .our-collaborator-area .single-collaborator {
+    border: 1px solid #444675;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+    width: 25%;
+    height: 240px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-left: -1px;
+    margin-top: -1px; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .our-collaborator-area .single-collaborator {
+        height: 200px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .our-collaborator-area .single-collaborator {
+        height: 150px; } }
+    @media only screen and (max-width: 767px) {
+      .our-collaborator-area .single-collaborator {
+        height: 80px; } }
+    .our-collaborator-area .single-collaborator a img {
+      -webkit-transition-duration: 300ms;
+      -o-transition-duration: 300ms;
+      transition-duration: 300ms;
+      max-height: 110px;
+      opacity: 0.5; }
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .our-collaborator-area .single-collaborator a img {
+          max-height: 90px; } }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .our-collaborator-area .single-collaborator a img {
+          max-height: 50px; } }
+      @media only screen and (max-width: 767px) {
+        .our-collaborator-area .single-collaborator a img {
+          max-height: 30px; } }
+    .our-collaborator-area .single-collaborator:hover a img, .our-collaborator-area .single-collaborator:focus a img {
+      opacity: 1; }
+
 
 /*# sourceMappingURL=style.css.map */
