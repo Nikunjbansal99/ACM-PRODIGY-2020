@@ -24,7 +24,7 @@ Last Update: March 14, 2019
     11.0 Counter Area CSS
     12.0 Speakar Area CSS
     13.0 Breadcrumb Area CSS
-    14.0 Blog Area CSS
+    14.0 Gallery Area CSS
     15.0 Widget Area CSS
     16.0 Client Area CSS
     17.0 Schedule Area CSS
@@ -1481,9 +1481,9 @@ input:required {
       color: #ffffff;
       font-family: "FontAwesome"; }
 
-.breadcrumb-area.blog {
+.breadcrumb-area.gallery {
   height: 550px; }
-  .breadcrumb-area.blog .breadcrumb-content .post-catagory {
+  .breadcrumb-area.gallery .breadcrumb-content .post-catagory {
     padding: 2px 15px;
     border-radius: 2px;
     font-size: 12px;
@@ -1492,21 +1492,21 @@ input:required {
     background-color: #df42b1;
     font-weight: 500;
     margin-bottom: 15px; }
-    .breadcrumb-area.blog .breadcrumb-content .post-catagory:hover, .breadcrumb-area.blog .breadcrumb-content .post-catagory:focus {
+    .breadcrumb-area.gallery .breadcrumb-content .post-catagory:hover, .breadcrumb-area.gallery .breadcrumb-content .post-catagory:focus {
       font-weight: 500;
       background-color: #000000; }
-  .breadcrumb-area.blog .breadcrumb-content .page-title {
+  .breadcrumb-area.gallery .breadcrumb-content .page-title {
     display: block;
     font-size: 48px;
     margin-bottom: 20px; }
     @media only screen and (max-width: 767px) {
-      .breadcrumb-area.blog .breadcrumb-content .page-title {
+      .breadcrumb-area.gallery .breadcrumb-content .page-title {
         font-size: 30px; } }
-  .breadcrumb-area.blog .breadcrumb-content .post-meta {
+  .breadcrumb-area.gallery .breadcrumb-content .post-meta {
     position: relative;
     z-index: 1;
     margin-bottom: 5px; }
-    .breadcrumb-area.blog .breadcrumb-content .post-meta a {
+    .breadcrumb-area.gallery .breadcrumb-content .post-meta a {
       position: relative;
       z-index: 1;
       font-size: 16px;
@@ -1514,62 +1514,62 @@ input:required {
       font-weight: 500;
       margin-right: 21px; }
       @media only screen and (max-width: 767px) {
-        .breadcrumb-area.blog .breadcrumb-content .post-meta a {
+        .breadcrumb-area.gallery .breadcrumb-content .post-meta a {
           font-size: 13px; } }
-      .breadcrumb-area.blog .breadcrumb-content .post-meta a::after {
+      .breadcrumb-area.gallery .breadcrumb-content .post-meta a::after {
         content: '|';
         position: absolute;
         top: 0;
         right: -11px;
         z-index: 1; }
-      .breadcrumb-area.blog .breadcrumb-content .post-meta a:last-child::after {
+      .breadcrumb-area.gallery .breadcrumb-content .post-meta a:last-child::after {
         display: none; }
-      .breadcrumb-area.blog .breadcrumb-content .post-meta a:hover, .breadcrumb-area.blog .breadcrumb-content .post-meta a:focus {
+      .breadcrumb-area.gallery .breadcrumb-content .post-meta a:hover, .breadcrumb-area.gallery .breadcrumb-content .post-meta a:focus {
         color: #df42b1; }
-        .breadcrumb-area.blog .breadcrumb-content .post-meta a:hover::after, .breadcrumb-area.blog .breadcrumb-content .post-meta a:focus::after {
+        .breadcrumb-area.gallery .breadcrumb-content .post-meta a:hover::after, .breadcrumb-area.gallery .breadcrumb-content .post-meta a:focus::after {
           color: #ffffff; }
 
-/* :: 14.0 Blog Area CSS */
-.our-blog-area .row {
+/* :: 14.0 Gallery Area CSS */
+.our-gallery-area .row {
   margin-left: -20px;
   margin-right: -20px; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .our-blog-area .row {
+    .our-gallery-area .row {
       margin-left: -15px;
       margin-right: -15px; } }
   @media only screen and (max-width: 767px) {
-    .our-blog-area .row {
+    .our-gallery-area .row {
       margin-left: -15px;
       margin-right: -15px; } }
-  .our-blog-area .row .col-12 {
+  .our-gallery-area .row .col-12 {
     padding-left: 20px;
     padding-right: 20px; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
-      .our-blog-area .row .col-12 {
+      .our-gallery-area .row .col-12 {
         padding-left: 15px;
         padding-right: 15px; } }
     @media only screen and (max-width: 767px) {
-      .our-blog-area .row .col-12 {
+      .our-gallery-area .row .col-12 {
         padding-left: 15px;
         padding-right: 15px; } }
 
-.single-blog-area {
+.single-gallery-area {
   position: relative;
   z-index: 1;
   margin-bottom: 70px; }
-  .single-blog-area .single-blog-thumb {
+  .single-gallery-area .single-gallery-thumb {
     border-radius: 10px 10px 0 0;
     overflow: hidden; }
-    .single-blog-area .single-blog-thumb img {
+    .single-gallery-area .single-gallery-thumb img {
       border-radius: 10px 10px 0 0;
       -webkit-transition-duration: 800ms;
       -o-transition-duration: 800ms;
       transition-duration: 800ms; }
-  .single-blog-area .single-blog-text {
+  .single-gallery-area .single-gallery-text {
     background-color: #ffffff;
     padding: 30px 30px 50px 30px;
     border-radius: 0 0 10px 10px; }
-    .single-blog-area .single-blog-text .blog-title {
+    .single-gallery-area .single-gallery-text .gallery-title {
       font-size: 20px;
       font-weight: 600;
       color: #111343;
@@ -1578,43 +1578,43 @@ input:required {
       -webkit-transition-duration: 500ms;
       -o-transition-duration: 500ms;
       transition-duration: 500ms; }
-      .single-blog-area .single-blog-text .blog-title:hover, .single-blog-area .single-blog-text .blog-title:focus {
+      .single-gallery-area .single-gallery-text .gallery-title:hover, .single-gallery-area .single-gallery-text .gallery-title:focus {
         color: #06b7cf; }
-    .single-blog-area .single-blog-text .post-meta {
+    .single-gallery-area .single-gallery-text .post-meta {
       margin-bottom: 15px; }
-      .single-blog-area .single-blog-text .post-meta a {
+      .single-gallery-area .single-gallery-text .post-meta a {
         color: #9293bc;
         font-size: 14px;
         margin-right: 20px;
         -webkit-transition-duration: 500ms;
         -o-transition-duration: 500ms;
         transition-duration: 500ms; }
-        .single-blog-area .single-blog-text .post-meta a i {
+        .single-gallery-area .single-gallery-text .post-meta a i {
           margin-right: 5px; }
-        .single-blog-area .single-blog-text .post-meta a:last-child {
+        .single-gallery-area .single-gallery-text .post-meta a:last-child {
           margin-right: 0; }
-        .single-blog-area .single-blog-text .post-meta a:hover, .single-blog-area .single-blog-text .post-meta a:focus {
+        .single-gallery-area .single-gallery-text .post-meta a:hover, .single-gallery-area .single-gallery-text .post-meta a:focus {
           color: #06b7cf; }
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
-          .single-blog-area .single-blog-text .post-meta a {
+          .single-gallery-area .single-gallery-text .post-meta a {
             margin-right: 15px;
             font-size: 12px; } }
         @media only screen and (max-width: 767px) {
-          .single-blog-area .single-blog-text .post-meta a {
+          .single-gallery-area .single-gallery-text .post-meta a {
             margin-right: 15px;
             font-size: 12px; } }
-    .single-blog-area .single-blog-text p {
+    .single-gallery-area .single-gallery-text p {
       color: #5d5e8d;
       margin-bottom: 0; }
-  .single-blog-area:hover .single-blog-thumb img, .single-blog-area:focus .single-blog-thumb img {
+  .single-gallery-area:hover .single-gallery-thumb img, .single-gallery-area:focus .single-gallery-thumb img {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2); }
-  .single-blog-area.style-2 {
+  .single-gallery-area.style-2 {
     background-color: #ffffff;
     box-shadow: 0px 8px 27px 0px rgba(90, 111, 120, 0.15); }
 
-.blog-btn {
+.gallery-btn {
   position: absolute;
   z-index: 22;
   bottom: -25.5px;
@@ -1622,7 +1622,7 @@ input:required {
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%); }
-  .blog-btn a {
+  .gallery-btn a {
     height: 51px;
     width: 51px;
     background-image: -webkit-linear-gradient(120deg, #505add 0%, #df42b1 100%);
@@ -1635,15 +1635,15 @@ input:required {
     font-size: 25px;
     display: inline-block; }
 
-/* :: Blog Details Page CSS */
+/* :: Gallery Details Page CSS */
 .post-details-content {
   position: relative;
   z-index: 1; }
-  .post-details-content .post-blog-thumbnail {
+  .post-details-content .post-gallery-thumbnail {
     position: relative;
     z-index: 1;
     margin-bottom: 30px; }
-    .post-details-content .post-blog-thumbnail img {
+    .post-details-content .post-gallery-thumbnail img {
       border-radius: 10px; }
   .post-details-content .post-title {
     color: #111343;
