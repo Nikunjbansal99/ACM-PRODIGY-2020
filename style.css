@@ -1107,20 +1107,24 @@ input:required {
       text-align: center; } }
   .copywrite-content .copywrite-text p {
     color: #9293bc;
+    text-align: center;
     font-size: 14px;
     margin-bottom: 0; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .copywrite-content .copywrite-text p {
+        text-align: center;
         font-size: 12px; } }
     @media only screen and (max-width: 767px) {
       .copywrite-content .copywrite-text p {
+        text-align: center;
         font-size: 12px; } }
-    .copywrite-content .copywrite-text p a {
+    /*.copywrite-content .copywrite-text p a {
       color: #ffffff;
+      
       font-weight: 400; }
       .copywrite-content .copywrite-text p a:hover, .copywrite-content .copywrite-text p a:focus {
         color: #06b7cf; }
-  .copywrite-content .footer-menu {
+    .copywrite-content .footer-menu {
     position: relative;
     z-index: 1; }
     .copywrite-content .footer-menu .nav {
@@ -1155,7 +1159,7 @@ input:required {
             color: #505add; }
           .copywrite-content .footer-menu .nav li a:hover, .copywrite-content .footer-menu .nav li a:focus {
             color: #ffffff; }
-
+*/
 /* :: 10.0 About Area CSS */
 .about-us-countdown-area {
   position: relative;
