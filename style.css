@@ -711,7 +711,7 @@ input:required {
       font-weight: 500;
       padding: 0 10px; }
       .classy-nav-container .classy-navbar .classynav ul li a:hover, .classy-nav-container .classy-navbar .classynav ul li a:focus {
-        color: #06b7cf; }
+        color: #020033; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .classy-nav-container .classy-navbar .classynav ul li a {
           font-size: 14px; } }
@@ -726,7 +726,7 @@ input:required {
           font-size: 14px;
           color: #111343; }
           .classy-nav-container .classy-navbar .classynav ul li a:hover, .classy-nav-container .classy-navbar .classynav ul li a:focus {
-            color: #06b7cf; } }
+            color: #020033; } }
     .classy-nav-container .classy-navbar .classynav ul li.cn-dropdown-item ul li a, .classy-nav-container .classy-navbar .classynav ul li.megamenu-item ul li a {
       font-size: 14px;
       text-transform: uppercase;
@@ -735,14 +735,14 @@ input:required {
       padding: 0 30px;
       color: #111343; }
       .classy-nav-container .classy-navbar .classynav ul li.cn-dropdown-item ul li a:focus, .classy-nav-container .classy-navbar .classynav ul li.cn-dropdown-item ul li a:hover, .classy-nav-container .classy-navbar .classynav ul li.megamenu-item ul li a:focus, .classy-nav-container .classy-navbar .classynav ul li.megamenu-item ul li a:hover {
-        color: #06b7cf; }
+        color: #020033; }
     .classy-nav-container .classy-navbar .classynav ul li.active a {
-      color: #06b7cf; }
+      color: #020033; }
 
 .classynav ul li.has-down > a::after,
 .classynav ul li.has-down.active > a::after,
 .classynav ul li.megamenu-item > a::after {
-  color: #df42b1; }
+  color: #020033; }
 
 .breakpoint-off .classynav ul li .dropdown,
 .breakpoint-off .classynav ul li .megamenu {
@@ -771,7 +771,6 @@ input:required {
     box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15); }
     .header-area.sticky .classy-navbar {
       height: 75px; }
-
 /* :: 8.0 Hero Area CSS */
 .welcome-area {
   position: relative;
