@@ -147,10 +147,10 @@
   top: 0;
   left: 0;
    background: #020033;
-  background: -webkit-linear-gradient(bottom, #4248b3, #151853);
-  background: -o-linear-gradient(bottom, #4248b3, #151853);
-  background: -moz-linear-gradient(bottom, #4248b3, #151853);
-  background: linear-gradient(bottom, #4248b3, #151853);
+  background: -webkit-linear-gradient(bottom,  #020033,  #020033);
+  background: -o-linear-gradient(bottom,  #020033,  #020033);
+  background: -moz-linear-gradient(bottom,  #020033,  #020033);
+  background: linear-gradient(bottom,  #020033,  #020033);
   /*opacity: 0.9;*/
 }
 
