@@ -522,7 +522,7 @@ input:required {
   width: 40px;
   height: 40px;
   bottom: 40px;
-  background-color: #020033;
+  background-color: #eb62f7;
   color: #ffffff;
   text-align: center;
   -webkit-transition-duration: 500ms;
@@ -537,7 +537,7 @@ input:required {
       right: 20px;
       bottom: 20px; } }
   #scrollUp:focus, #scrollUp:hover {
-    background-color: #000000;
+    background-color: #eb62f7;
     color: #ffffff; }
 
 /* :: 6.0 Buttons Area CSS */
