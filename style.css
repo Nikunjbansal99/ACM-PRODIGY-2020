@@ -56,6 +56,12 @@ body {
   position: relative;
   z-index: auto; }
 
+var spanStyle ={
+  postion:"absolute",
+  top:50%,
+  left:50%,
+  transform:"translate(-50%,-50%)"
+}
 h1,
 h2,
 h3,
@@ -539,7 +545,7 @@ input:required {
     top: -10%;
     left: -10%;
     content: '';
-   
+
     z-index: -2; }
   .confer-btn:focus, .confer-btn:hover {
     font-weight: 500;
@@ -915,7 +921,7 @@ input:required {
         top: 67px;
         right: 5px;
         z-index: -1;
-       
+
         background-image: -ms-linear-gradient(120deg, #505add 0%, #020033 100%); }
         @media only screen and (min-width: 768px) and (max-width: 991px) {
           .single-welcome-slide .welcome-text h2::after {
@@ -1118,7 +1124,7 @@ input:required {
         font-size: 12px; } }
     /*.copywrite-content .copywrite-text p a {
       color: #ffffff;
-      
+
       font-weight: 400; }
       .copywrite-content .copywrite-text p a:hover, .copywrite-content .copywrite-text p a:focus {
         color: #020033; }
