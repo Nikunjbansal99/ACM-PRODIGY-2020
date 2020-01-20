@@ -45,6 +45,22 @@ Last Update: March 14, 2019
 @import url(css/material-design-iconic-font.min.css);
 @import url(css/style.css);
 
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px pink; 
+  border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #eb62f7; 
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background:#eb62f7; 
 .center {
   margin: auto;
   width: auto;
