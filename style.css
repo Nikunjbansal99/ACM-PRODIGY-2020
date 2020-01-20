@@ -44,6 +44,15 @@ Last Update: March 14, 2019
 @import url(css/font-awesome.min.css);
 @import url(css/material-design-iconic-font.min.css);
 @import url(css/style.css);
+
+.center {
+  margin: auto;
+  width: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+
 /* :: 01.0 Reboot Area CSS */
 * {
   margin: 0;
