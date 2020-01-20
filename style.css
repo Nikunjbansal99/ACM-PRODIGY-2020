@@ -798,9 +798,9 @@ input:required {
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
   transition-duration: 500ms;
-  background-color: rgba(0, 0, 0, 0.8); }
+  background-color: rgba(235,98,247, 0.2); }
   .header-area.sticky {
-    background-color: #5d4fc9;
+    background-color: #eb62f7;
     -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
     box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15); }
     .header-area.sticky .classy-navbar {
