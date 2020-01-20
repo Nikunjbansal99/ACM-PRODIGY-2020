@@ -686,7 +686,7 @@ input:required {
     left: 2px;
     right: 2px;
     bottom: 2px;
-    background-color: #151853;
+    background-color: #020033;
     content: '';
     z-index: -1; }
   .confer-gb-btn:hover, .confer-gb-btn:focus {
@@ -1168,7 +1168,7 @@ input:required {
 .about-us-countdown-area {
   position: relative;
   z-index: 1;
-  background-color: #151853; }
+  background-color: #020033; }
   .about-us-countdown-area .about-content-text h6 {
     font-size: 14px;
     font-weight: 500;
@@ -2251,7 +2251,7 @@ input:required {
 .our-schedule-area {
   position: relative;
   z-index: 1;
-  background-color: #151853; }
+  background-color: #020033; }
   .our-schedule-area .schedule-tab {
     position: relative;
     z-index: 1;
@@ -2553,7 +2553,7 @@ input:required {
 .our-sponsor-client-area {
   position: relative;
   z-index: 1;
-  background-color: #151853; }
+  background-color: #020033; }
 
 .our-sponsor-area {
   position: relative;
@@ -2609,7 +2609,7 @@ input:required {
 .contact-our-area {
   position: relative;
   z-index: 1;
-  background-color: #151853; }
+  background-color: #020033; }
   .contact-our-area .contact-information .single-contact-info {
     margin-bottom: 25px; }
     .contact-our-area .contact-information .single-contact-info p {
@@ -2757,7 +2757,7 @@ input:required {
 .our-collaborator-client-area {
   position: relative;
   z-index: 1;
-  background-color: #151853; }
+  background-color: #020033; }
 
 .our-collaborator-area {
   position: relative;
