@@ -81,6 +81,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   position: relative;
+  overflow-x: hidden;
   z-index: auto; }
 
 .buttonstyleACM{
@@ -1676,8 +1677,16 @@ input:required {
 }
 
 #gallery .owl-item {
-  border-left: 2px solid #fff;
-  border-right: 2px solid #fff;
+  height: 33vh;
+}
+
+#gallery .owl-item * {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#gallery .owl-item.active {
+    border: 3px solid #fff;
 }
 
 #gallery .owl-dot {
@@ -1690,7 +1699,7 @@ input:required {
 }
 
 #gallery .owl-dot.active {
-  background-color: #f82249;
+  background-color: #eb62f7;
 }
 
 #gallery .gallery-carousel .owl-stage-outer {
