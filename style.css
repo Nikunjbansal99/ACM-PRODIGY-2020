@@ -1676,6 +1676,7 @@ input:required {
 
 #galleryCarousel *{
     max-height: 50vh;
+    width: auto;
 }
 
 #gallery .owl-nav,
