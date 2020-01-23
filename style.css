@@ -1681,6 +1681,10 @@ input:required {
 #gallery .owl-nav,
 #gallery .owl-dots {
   margin-top: 25px;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 0%);
   text-align: center;
 }
 
