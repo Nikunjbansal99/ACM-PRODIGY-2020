@@ -1670,6 +1670,15 @@ input:required {
     font-size: 25px;
     display: inline-block; }
 
+#gallery {
+  padding: 60px;
+  overflow: hidden;
+}
+
+#galleryCarousel *{
+    max-height: 50vh;
+}
+
 #gallery .owl-nav,
 #gallery .owl-dots {
   margin-top: 25px;
@@ -1677,16 +1686,10 @@ input:required {
 }
 
 #gallery .owl-item {
-  height: 33vh;
-}
-
-#gallery .owl-item * {
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
   max-width: 100%;
   max-height: 100%;
-}
-
-#gallery .owl-item.active {
-    border: 3px solid #fff;
 }
 
 #gallery .owl-dot {
@@ -1707,11 +1710,11 @@ input:required {
 }
 
 #gallery .gallery-carousel .center {
-  border: 6px solid #f82249;
+  border: 6px solid #eb62f7;
   margin: -10px;
   box-sizing: content-box;
   padding: 4px;
-  background: #fff;
+  background: transparent;
   z-index: 1;
 }
 

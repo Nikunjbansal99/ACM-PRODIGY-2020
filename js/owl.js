@@ -1,17 +1,19 @@
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
-    loop:true,
     autoplay: true,
+    center: true,
+    touchDrag: true,
+    autoWidth: true,
     responsive:{
         0:{
             items:1
         },
         600:{
-            items:1
+            items:3
         },
         1000:{
-            items:1
+            items:5
         }
     }
 })
