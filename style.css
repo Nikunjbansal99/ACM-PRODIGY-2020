@@ -1669,6 +1669,58 @@ input:required {
     font-size: 25px;
     display: inline-block; }
 
+#gallery {
+  padding: 60px;
+  overflow: hidden;
+}
+
+#galleryCarousel *{
+    max-height: 50vh;
+}
+
+#gallery .owl-nav,
+#gallery .owl-dots {
+  margin-top: 25px;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 0%);
+  text-align: center;
+}
+
+#gallery .owl-item {
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#gallery .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd;
+}
+
+#gallery .owl-dot.active {
+  background-color: #eb62f7;
+}
+
+#gallery .gallery-carousel .owl-stage-outer {
+  overflow: visible;
+}
+
+#gallery .gallery-carousel .center {
+  border: 6px solid #eb62f7;
+  margin: -10px;
+  box-sizing: content-box;
+  padding: 4px;
+  background: transparent;
+  z-index: 1;
+}
+
 /* :: Gallery Details Page CSS */
 .post-details-content {
   position: relative;
