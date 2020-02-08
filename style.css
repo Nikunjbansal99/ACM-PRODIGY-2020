@@ -186,6 +186,12 @@ ul {
     background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0) 100%);
     background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0) 100%); }
 
+.bg-img1 {
+  background-position: center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important; 
+  height: 580px;} 
+
 .bg-img {
   background-position: center center !important;
   background-size: cover !important;
