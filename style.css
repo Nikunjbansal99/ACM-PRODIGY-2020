@@ -2442,7 +2442,7 @@ input:required {
         border-radius: 0 10px 10px 0; }
 
 .single-schedule-area {
-  border: 1px solid #554cad;
+  border: 1px solid white;
   border-radius: 10px;
   padding: 25px;
   -webkit-transition-duration: 500ms;
@@ -2450,7 +2450,7 @@ input:required {
   transition-duration: 500ms;
   margin-bottom: 20px; }
   .single-schedule-area:hover, .single-schedule-area:focus {
-    border-color: #020033; }
+    border-color: white; }
   .single-schedule-area .single-schedule-tumb-info {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 42%;
