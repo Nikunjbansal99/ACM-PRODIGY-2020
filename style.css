@@ -190,7 +190,8 @@ ul {
   background-position: center center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important; 
-  height: 580px;} 
+  height: 580px;
+  background: #020033;} 
 
 .bg-img {
   background-position: center center !important;
