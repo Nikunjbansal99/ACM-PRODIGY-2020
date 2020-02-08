@@ -1680,7 +1680,7 @@ input:required {
 
 #gallery {
   padding: 60px;
-  overflow: transparent;
+  overflow: hidden;
 }
 
 #galleryCarousel *{
