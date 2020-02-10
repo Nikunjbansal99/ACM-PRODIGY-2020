@@ -1515,7 +1515,7 @@ input:required {
     top: 0; }
 .text {
   color: white;
-  font-size: 10px;
+  font-size: 12px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -2484,7 +2484,7 @@ input:required {
       margin-left: 30px; }
       .single-schedule-area .single-schedule-tumb-info .single-schedule-info h6 {
         font-size: 20px;
-        color: #ffffff;
+        color: #554cad;
         font-weight: 600; }
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
           .single-schedule-area .single-schedule-tumb-info .single-schedule-info h6 {
@@ -2496,7 +2496,7 @@ input:required {
           .single-schedule-area .single-schedule-tumb-info .single-schedule-info h6 {
             font-size: 14px; } }
       .single-schedule-area .single-schedule-tumb-info .single-schedule-info p {
-        color: #9293bc;
+        color: #554cad;
         margin-bottom: 0; }
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
           .single-schedule-area .single-schedule-tumb-info .single-schedule-info p {
@@ -2508,7 +2508,7 @@ input:required {
           .single-schedule-area .single-schedule-tumb-info .single-schedule-info p {
             font-size: 12px; } }
         .single-schedule-area .single-schedule-tumb-info .single-schedule-info p span {
-          color: #ffffff; }
+          color: #554cad; }
   .single-schedule-area .schedule-time-place {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 42%;
@@ -2532,7 +2532,7 @@ input:required {
         width: 100%;
         padding: 0 0 30px 0; } }
     .single-schedule-area .schedule-time-place p {
-      color: #ffffff;
+      color: #554cad;
       margin-bottom: 0;
       letter-spacing: 1px; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -2545,7 +2545,7 @@ input:required {
         .single-schedule-area .schedule-time-place p {
           font-size: 12px; } }
       .single-schedule-area .schedule-time-place p i {
-        color: #df42b1;
+        color: #554cad;
         margin-right: 5px; }
       .single-schedule-area .schedule-time-place p:last-child {
         margin-bottom: 0; }
